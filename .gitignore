@@ -1,0 +1,30 @@
+# Local Python virtual environments
+.venv/
+venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local PyCharm settings
+.idea/
+
+# Local datasets
+/data/
+
+# Generated backtest outputs
+/results/
+/reports/
+/logs/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
